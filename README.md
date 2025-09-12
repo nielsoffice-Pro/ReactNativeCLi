@@ -45,3 +45,10 @@ npx @react-native-community/cli@latest init MobileApp
     • See https://aka.ms/ReactNativeGuideMacOS for the latest up-to-date instructions.
 
 ```
+
+Run instructions for iOS:
+ <br> • cd "/Users/apple/Desktop/rjnative/Mapp"
+ <br> • npx react-native run-ios
+    
+In your terminal , please kindly patiently waiting until the ISO build Emulator is ready  [  Building the app.... ] 
+

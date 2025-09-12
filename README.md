@@ -1,4 +1,4 @@
-# ReactNative-OnTheGo
+# ReactNative-CLI
 Installation and build, Deploy CLI 
 
 

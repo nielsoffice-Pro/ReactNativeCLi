@@ -32,7 +32,7 @@ npx @react-native-community/cli@latest init MobileApp
     • Have an Android emulator running (quickest way to get started), or a device connected.
     • cd "/Users/apple/Desktop/rjnative/Mapp" && npx react-native run-android
 
-  // This how to run our mobile apps in emulator ISO, but note configuration environment must be done first   
+  // This how to run our mobile apps in emulator ISO, but note configuration environment must be done first : ( https://reactnative.dev/docs/set-up-your-environment )
   Run instructions for iOS:
     • cd "/Users/apple/Desktop/rjnative/Mapp"  
     • npx react-native run-ios

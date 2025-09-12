@@ -55,3 +55,21 @@ Run instructions for iOS:
     
 In your terminal , please kindly patiently waiting until the ISO build Emulator is ready  [  Building the app.... ] 
 
+
+In case of Error Port Ready to use : ``` Error: listen EADDRINUSE: address already in use :::8081 ``` 
+<br> FIXED STEPS: 
+
+```
+lsof -i :8081
+```
+
+```
+ // Result 
+ COMMAND   PID  USER   FD   TYPE  DEVICE SIZE/OFF NODE NAME
+ node     12345 user   ...  TCP   *:8081 (LISTEN)
+```
+
+```
+ // replace 12345 from the result running : lsof -i :8081 
+ kill -9 12345
+```

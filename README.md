@@ -10,7 +10,10 @@ Installing ReactNative CLI
 
 > https://github.com/react-native-community/cli?tab=readme-ov-file#documentation
 
+
 ```
+// remove recent installation CLI : npm uninstall -g react-native-cli @react-native-community/cli
+
 npx @react-native-community/cli@latest init MobileApp
 ```
 

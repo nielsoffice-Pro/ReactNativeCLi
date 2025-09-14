@@ -73,3 +73,11 @@ lsof -i :8081
  // replace 12345 from the result running : lsof -i :8081 
  kill -9 12345
 ```
+
+
+
+<br>
+<br>
+Other related topic: 
+<br> TypeScript JS: https://github.com/nielsoffice-Pro/TypeScript
+
